@@ -1,0 +1,47 @@
+body {
+    background-color: #F5EFFF;
+}
+
+h2, h3, p {
+    text-align: center;        
+}
+
+ /*Title class*/
+.title {
+    display: flex;            
+    justify-content: center;
+    align-items: center;
+    width: 50%; 
+    margin: 0 auto;
+}
+
+/*Buffer class*/
+.buffer {
+    width: 50%; 
+    margin: 0 auto;
+}
+
+/*Container class*/
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-direction: row;
+    gap: 50px;
+}
+
+/*Email id*/
+#mail-link {
+    text-align: center;
+    margin-top: 30%;
+}
+
+/*Page links id(s)*/
+#link-1, #link-2, #link-3 {
+    color: #320A6B;
+}
+
+/*Page links id(s)*/
+#link-1:hover, #link-2:hover, #link-3:hover {
+    color: #6E8CFB;
+}            

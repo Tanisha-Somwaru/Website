@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Education</title>
+
+        <style>
+            body {
+                background-color: #F4EEFF;
+            }
+
+            h2, h3, h4, p {
+                text-align: center;        
+            }
+
+            /*Title class*/
+            .title {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 50%; 
+                margin: 0 auto;
+            }
+
+            /*Buffer class*/
+            .buffer {
+                width: 50%; 
+                margin: 0 auto;
+            }
+
+            /*Container class*/
+            .container {
+                display: flex;
+                justify-content: center;
+                align-items: stretch;
+                flex-direction: row;
+                gap: 50px;
+            }
+
+            /*Email id*/
+            #mail-link {
+                text-align: center;
+                margin-top: 30%;
+            }
+
+            /*Page links id(s)*/
+            #link-1, #link-2, #link-3 {
+                color: #320A6B;
+            }
+
+            /*Page links id(s)*/
+            #link-1:hover, #link-2:hover, #link-3:hover {
+                color: #6E8CFB;
+            }
+        </style>
+    </head>
+    <body>
+        <!--Contains the resume title-->
+        <div class="title">
+            <h1>Resume of Tanisha Somwaru</h1>
+        </div>
+
+        <!--Buffer that contains the other page links and education-->
+        <div class="buffer">
+            <h2>Education</h2>
+            <!--Container for centering the page links and education-->
+            <div class="container">
+                <!--Contains the page links-->
+                <div>
+                    <h3>Other Pages</h3>
+                    <p><a id="link-1" title="Work Experience" href="WorkInline.html">Go to Work Experience</a></p>
+                    <p><a id="link-2" title="Education" href="EducationInternal.html">Go to Education</a></p>
+                    <p><a id="link-3" title="Skills" href="SkillsExternal.html">Go to Skills and Awards</a></p>
+                </div>
+                <!--Contains education #1's info-->
+                <div>
+                    <h3>High School Diploma</h3>
+                    <p><a href="https://www.schenectadyschools.org/o/shs">Schenectady High School</a></p>
+                    <h4>Graduated 2022</h4>
+                    <h4>GPA: 3.8</h4>
+                </div>
+                <!--Contains education #2's info-->
+                <div>
+                    <h3>Bachelors of Science</h3>
+                    <p><a href="https://www.albany.edu">University at Albany</a></p>
+                    <h4>Expected 2027</h4>
+                    <h4>GPA: 3.8</h4>
+                </div>
+            </div>
+            <!--Email link-->
+            <p id="mail-link"><a href="mailto:tsomwaru@albany.edu">Email me!</a></p>
+        </div>
+    </body>
+</html>
